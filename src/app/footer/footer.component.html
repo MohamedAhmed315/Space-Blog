@@ -1,0 +1,74 @@
+<footer class="py-5 text-center text-md-start">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-6 mb-3">
+                <a routerLink="/">
+                    <div class="img-container d-flex flex-column justify-content-center align-items-center">
+                        <img src="../../assets/img/logo.png" alt="" id="footerlogo">
+                        <p>{{ title }}</p>
+                    </div>
+                </a>
+
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3 d-flex flex-column align-items-center">
+                <ul>
+                    <li>
+                        <h5>social</h5>
+                    </li>
+                    <li>
+                        <a href="http://www.google.com" target="_blank">google +</a>
+                    </li>
+                    <li>
+                        <a href="http://www.facebook.com" target="_blank">facebook</a>
+
+                    </li>
+                    <li>
+                        <a href="http://www.twitter.com" target="_blank">twitter</a>
+                    </li>
+                    <li>
+                        <a href="http://www.youtube.com" target="_blank">youtube</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3 d-flex flex-column align-items-center">
+                <ul>
+                    <li>
+                        <h5>Special links</h5>
+                    </li>
+                    <li>
+                        <a routerLink="/about">
+                            about
+                        </a>
+                    </li>
+                    <li><a routerLink="/blog">
+                            blog
+                        </a>
+                    </li>
+                    <li><a routerLink="/gallery">
+                            gallery
+                        </a>
+                    </li>
+                    <li><a routerLink="/contactus">
+                            contact us
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+                <form class="row g-3 align-items-center needs-validation">
+                    <div class="col-12">
+                        <h5 for="newsletter">Newsletter</h5>
+                        <input type="email" class="form-control" id="newsletter" placeholder="Email" required>
+                        <div class="invalid-feedback">
+                            Please enter a valid email adderess.
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</footer>

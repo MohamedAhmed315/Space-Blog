@@ -1,0 +1,66 @@
+@import '../../_variables.scss';
+
+#top-section {
+    background-color: $grey-color;
+    background-image: url(../../assets/img/about-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    h3 {
+        text-transform: capitalize;
+        font-style: italic;
+        font-family: 'Federant', cursive;
+        color: white;
+    }
+
+    .subtitle {
+        font-weight: 700;
+        text-transform: capitalize;
+        color: white;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .paragraph {
+        color: white;
+    }
+
+    .img-container {
+        width: 200px;
+        height: auto;
+        overflow: hidden;
+        margin: auto;
+        border-radius: 25px;
+        border: solid 5px steelblue;
+
+        img {
+            width: 100%;
+            height: 100%;
+
+        }
+    }
+}
+
+#bottom-section {
+    .card {
+        width: 300px;
+        margin: 1rem;
+        border-radius: 10px;
+
+        .img-container {
+            overflow: hidden;
+            height: 200px;
+            width: auto;
+        }
+
+        .card-text {
+            min-height: 72px;
+            max-height: 72px;
+            overflow: hidden;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    }
+}
