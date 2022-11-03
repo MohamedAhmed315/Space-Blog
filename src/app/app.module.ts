@@ -11,6 +11,10 @@ import { HeaderComponent } from './header/header.component';
 import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
+import { CardsSectionComponent } from './cards-section/cards-section.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { BlogComponent } from './blog/blog.component';
+
 
 @NgModule({
   declarations: [
@@ -19,6 +23,8 @@ import { FooterComponent } from './footer/footer.component';
     AboutComponent,
     HomeComponent,
     FooterComponent,
+    CardsSectionComponent,
+    BlogComponent,
   ],
   imports: [
     BrowserModule,
@@ -26,6 +32,7 @@ import { FooterComponent } from './footer/footer.component';
     BrowserAnimationsModule,
     HttpClientModule,
     CommonModule,
+    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,26 @@
+#cards-section {
+    .card {
+        width: 300px;
+        margin: 1rem;
+        border-radius: 10px;
+        border-radius: 1rem;
+
+        .img-container {
+            overflow: hidden;
+            height: 200px;
+            width: auto;
+            border-top-left-radius: 1rem;
+            border-top-right-radius: 1rem;
+        }
+
+        .card-text {
+            min-height: 72px;
+            max-height: 72px;
+            overflow: hidden;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    }
+}

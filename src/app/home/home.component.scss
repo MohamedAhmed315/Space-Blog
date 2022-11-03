@@ -77,27 +77,3 @@
         }
     }
 }
-
-#bottom-section {
-    .card {
-        width: 300px;
-        margin: 1rem;
-        border-radius: 10px;
-
-        .img-container {
-            overflow: hidden;
-            height: 200px;
-            width: auto;
-        }
-
-        .card-text {
-            min-height: 72px;
-            max-height: 72px;
-            overflow: hidden;
-        }
-
-        a {
-            text-decoration: none;
-        }
-    }
-}
