@@ -14,6 +14,8 @@ import { FooterComponent } from './footer/footer.component';
 import { CardsSectionComponent } from './cards-section/cards-section.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { BlogComponent } from './blog/blog.component';
+import { BackToTopComponent } from './back-to-top/back-to-top.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 
 @NgModule({
@@ -25,6 +27,7 @@ import { BlogComponent } from './blog/blog.component';
     FooterComponent,
     CardsSectionComponent,
     BlogComponent,
+    BackToTopComponent,
   ],
   imports: [
     BrowserModule,
@@ -33,6 +36,7 @@ import { BlogComponent } from './blog/blog.component';
     HttpClientModule,
     CommonModule,
     NgbModule,
+    FontAwesomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

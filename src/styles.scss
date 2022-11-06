@@ -1,11 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
+
 html,
 body {
     height: 100%;
-}
-
-body {
+    scroll-behavior: smooth;
     margin: 0;
     font-family: 'Mulish', sans-serif;
     overflow-x: hidden;
@@ -22,6 +23,3 @@ body {
         font-family: 'Mulish', sans-serif;
     }
 }
-
-/* Importing Bootstrap SCSS file. */
-@import '~bootstrap/scss/bootstrap';
