@@ -4,6 +4,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 
 import { AppRoutingModule } from './app-routing.module';
+import {IvyGalleryModule} from 'angular-gallery';
 
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -16,6 +17,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { BlogComponent } from './blog/blog.component';
 import { BackToTopComponent } from './back-to-top/back-to-top.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { GalleryComponent } from './gallery/gallery.component';
+
 
 
 @NgModule({
@@ -28,6 +31,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     CardsSectionComponent,
     BlogComponent,
     BackToTopComponent,
+    GalleryComponent,
   ],
   imports: [
     BrowserModule,
@@ -37,6 +41,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     CommonModule,
     NgbModule,
     FontAwesomeModule,
+    IvyGalleryModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,42 @@
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+
+.container {
+    h1 {
+        text-transform: capitalize;
+        font-family: 'Federant', cursive;
+    }
+
+    .row {
+        .img-container {
+            height: 300px;
+            max-height: 300px;
+            max-width: 300px;
+            overflow: hidden;
+            position: relative;
+            border-radius: 1rem;
+
+            @include media-breakpoint-down(md) {
+                width: 100%;
+                max-width: 100%;
+            }
+        }
+
+        img {
+            width: auto;
+            height: 100%;
+            margin: auto;
+            display: block;
+            left: 50%;
+            position: absolute;
+            top: 50%;
+            border-radius: 1rem;
+            transform: translate(-50%, -50%);
+
+            @include media-breakpoint-down(md) {
+                width: 100%;
+            }
+        }
+    }
+}

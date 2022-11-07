@@ -13,11 +13,14 @@ export class BackToTopComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    window.addEventListener('scroll', () => {
-      this.windowScrolled = window.pageYOffset !== 0;
-    });
+    // window.addEventListener('scroll', () => {
+    //   this.windowScrolled = window.pageYOffset !== 0;
+    //   console.log('scroll');     
+    // });
   }
   scrollToTop(): void {
     window.scrollTo(0, 0);
+    console.log('click');
+
   }
 }
