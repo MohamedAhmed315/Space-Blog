@@ -18,6 +18,7 @@ export class BackToTopComponent implements OnInit {
     //   console.log('scroll');     
     // });
   }
+  
   scrollToTop(): void {
     window.scrollTo(0, 0);
     console.log('click');

@@ -16,6 +16,7 @@
             overflow: hidden;
             position: relative;
             border-radius: 1rem;
+            cursor: pointer;
 
             @include media-breakpoint-down(md) {
                 width: 100%;
